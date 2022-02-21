@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="EFCore.NamingConventions" Version="5.0.1" />
+        <PackageReference Include="EmptyControllerAndViewScaffolder" Version="1.0.0-alpha1" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.14" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.14" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.14" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="2.0.0-preview1-final" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.14">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Areas\SizesController\Controllers" />
+      <Folder Include="Areas\SizesController\Data" />
+      <Folder Include="Areas\SizesController\Models" />
+      <Folder Include="Areas\SizesController\Views" />
+    </ItemGroup>
+
+</Project>
